@@ -7,14 +7,43 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
 h3 {
   margin: 1.5em;
   padding: 3em,
 }
+
 .navigation {
   background-color: rgb(236, 232, 232);
   display: flex;
   flex-direction: row;
   align-content: space-between;
+  align-items: center;
+}
 
+.car{
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10%;
+  text-align: center;
+}
+
+.photos{
+  margin: 1.5em;
+  padding: 3em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  margin: 0px 40%;
+  text-align: center; 
+}
+
+h5 {
+  margin: 1.5em;
+  padding: 3em;
 }
