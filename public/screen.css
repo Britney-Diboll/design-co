@@ -29,18 +29,19 @@ h3 {
 }
 
 .photos{
-  margin: 1.5em;
-  padding: 3em;
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
 }
 
 .text {
   display: flex;
   justify-content: center;
-  margin: 0px 40%;
+  margin: 0.5em;
+  padding: 1em;
   text-align: center; 
+  overflow-wrap: normal;
 }
 
 h5 {
