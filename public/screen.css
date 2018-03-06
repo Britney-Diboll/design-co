@@ -30,12 +30,16 @@ h3 {
 
 .photos{
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   margin: 20px;
+  align-content: center;
 }
 
-.text {
+.img1, .img2 {
+  margin: 10px;
+}
+
+.words {
   display: flex;
   justify-content: center;
   margin: 0.5em;
@@ -44,7 +48,23 @@ h3 {
   overflow-wrap: normal;
 }
 
+.text, .text2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.para2 {
+  display: flex;
+}
+
+.para2 p {
+  width: 300px;
+}
+
+.para {
+  width: 150px;
+}
+
 h5 {
-  margin: 1.5em;
-  padding: 3em;
+  text-align: start;
 }
